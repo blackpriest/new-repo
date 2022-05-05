@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+
+
+
+
+header{
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  font-family: 'poppins';
+}
+
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+#logo {
+  text-align: center;
+  margin: 0
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+
+nav{
+  text-align: center;
+  padding: 10 0 0;
+  margin: 20 0 0;
+
+}
+p{
+  font-family: 'poppins';
+}
+
+
+/**********************************
+portfolio or content 
+***********************************/
+
+#gallery{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: rgba(33, 33, 39, 0.089);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+
+}
+#gallery li a p{
+  margin: 0%;
+  padding: 5%;
+  font-size: 00.75em;
+  color: rgb(65, 64, 64);
+}
+
+/**********************************
+footer
+***********************************/
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: rgb(99, 87, 87);
+
+}
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0.5px;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #0a0a0a;
+  border-color: #444242;
+}
+
+/* nav background on mobile */
+nav {
+  background:  #0a0a0a;
+
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+/* navigation pannel */
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+nav ul{
+  margin: 0 10px;
+  list-style: none;
+  padding: 0%;
+
+}
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+/**********************************
+page: about
+***********************************/
+.profile-photo{
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+/**********************************
+page: CONTACT
+***********************************/
+
+.contact-info{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+
+}
+
+.contact-info li.telephone a{
+  background-image: url(../images/phone.png);
+}
+.contact-info li.email a{
+  background-image: url(../images/mail.png);
+}
+
+.contact-info li.twitter a{
+  background-image: url(../images/twitter.png);
+}
+
+
+

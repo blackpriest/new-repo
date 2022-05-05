@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    min-width: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-info{
+    width: 100%;
+    text-align: center;
+}
+.hero .hero-info .hero-info-heading{
+    font-size: 5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    line-height: 60px;
+}
+.hero .hero-info .hero-info-subheading{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: whitesmoke;
+}
+.hero .hero-info .hero-info-button{
+    margin-top: 27px;
+    padding: 1.3rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .6rem;
+    background-color: rgb(82, 82, 82);
+    margin-bottom: 50px;
+}
+
+.hero .hero-img{
+    height: auto;
+    width: 30%;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.hero .hero-img img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+/* about section */
+
+.about .about-info{
+    text-align: center;
+}
+
+.about .about-info .about-info-heading{
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: black;
+}
+.about .about-info .about-info-text{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-top: 8px;
+    text-align: center;
+
+}
+.about .about-info .about-info-button{
+    padding: 1rem 2rem;
+    display: inline-block;
+    background-color: rgb(49, 47, 47);
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.about .about-img .about-img-wrapper{
+    margin-top: 30px;
+    max-width: 300px;
+    position: relative;
+    display: inline-block;
+}
+.about .about-img .about-img-wrapper img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.about .about-img .about-img-wrapper::after {
+    position: absolute;
+    content: "";
+    right: -5rem;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 33, 33, 0.158);
+    z-index: -1;
+    
+}

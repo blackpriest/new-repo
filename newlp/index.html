@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excibution</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="hero-img"></div>
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">Black<span>Priest</span></a>
+            <nav>
+
+                <svg class="close" xmlns="http://www.w3.org/2000/svg" ><path d="M16.5 33.6 24 26.1 31.5 33.6 33.6 31.5 26.1 24 33.6 16.5 31.5 14.4 24 21.9 16.5 14.4 14.4 16.5 21.9 24 14.4 31.5ZM24 44Q19.75 44 16.1 42.475Q12.45 40.95 9.75 38.25Q7.05 35.55 5.525 31.9Q4 28.25 4 24Q4 19.8 5.525 16.15Q7.05 12.5 9.75 9.8Q12.45 7.1 16.1 5.55Q19.75 4 24 4Q28.2 4 31.85 5.55Q35.5 7.1 38.2 9.8Q40.9 12.5 42.45 16.15Q44 19.8 44 24Q44 28.25 42.45 31.9Q40.9 35.55 38.2 38.25Q35.5 40.95 31.85 42.475Q28.2 44 24 44ZM24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24Q24 24 24 24ZM24 41Q31 41 36 36Q41 31 41 24Q41 17 36 12Q31 7 24 7Q17 7 12 12Q7 17 7 24Q7 31 12 36Q17 41 24 41Z"/></svg>
+            
+                <ul>
+                    <li> <a href="#">home</a></li>
+                    <li> <a href="#">about</a></li>
+                    <li> <a href="#">stock</a></li>
+                </ul> 
+            </nav>
+
+            <svg class="menu" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36V33H42V36ZM6 25.5V22.5H42V25.5ZM6 15V12H42V15Z"/></svg>
+        </header>
+        
+
+        <section class="hero">
+            <h1>Regain your confidence on the court.</h1>
+
+            <p class="sub-head">A product built specialy for you and all your special needs</p>
+
+            <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 44 10 30 12.1 27.9 22.5 38.3V4H25.5V38.3L35.9 27.9L38 30Z"/></svg>
+
+        </section>
+        <section class="more-info">
+            <div class="features">
+                <div class="content">
+                    <p class="title">light weight</p>
+                    <p class="desc">Lorem ipsum dolor sit amet conseepe porro iusto officia quo error cum ad quidem quod iste!</p>
+                </div>
+                <img src="/Pins/1127378.png" alt="">
+            </div>
+            <div class="features left">
+                <div class="content">
+                    <p class="title">light weight</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipis hwhfiw rjhdkdj!</p>
+                </div>
+                <img src="/Pins/rick-and-morty-minimal-1280×720.jpg" alt="">
+            </div>
+            <div class="features">
+                <div class="content">
+                    <p class="title">light weight</p>
+                    <p class="desc">Lorem ipsum dolor sit amet conseporis saepe porro iusto officia quo error cum ad quidem quod iste!</p>
+                </div>
+                <img src="/Pins/22c6fd4465f8af91514e11073bc03346.jpg" alt="">
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+
+
+        menu.addEventListener('click', () => {
+            nav.classList.add('.open-nav')
+        })
+    </script>
+</body>
+</html>

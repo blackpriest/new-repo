@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, consequatur quae ut atque at quidem, quam asperiores distinctio aperiam ducimus exercitationem, eaque incidunt. Reprehenderit, ipsa! Sint consequatur iste tenetur incidunt!</p>
+    </div>
+    <script>
+        document.bgColor= 'aqua';
+
+        let el= document.createElement("h1")
+        el.innerHTML = "<a href='https://google.com'>hello world</a>"
+        document.body.appendChild(el)
+
+        let pra = document.createElement("p")
+        pra.innerHTML = "priest"
+        el.appendChild(pra)
+
+        let container = document.getElementById('container')
+        container.appendChild(pra)
+    </script>
+</body>
+</html>
